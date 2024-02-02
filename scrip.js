@@ -11,6 +11,7 @@ let customIndex = 0;
           <div class="number-badge">${customIndex + 1}</div>
           <div class="card-body">
             <h5 class="card-title">Elemento ${customIndex + 1}</h5>
+            <img src="img.jpg" width="150" height="150" align="center">
             <p class="card-text">
               <span class="fw-bold">ID:</span> ${customIndex + 1}<br>
               <span class="fw-bold">Descripción:</span> Este es un elemento personalizado<br>
