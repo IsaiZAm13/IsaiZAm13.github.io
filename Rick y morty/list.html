@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Personajes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Agregar Personajes</h1>
+        <form id="characterForm">
+            <label for="characterName">Nombre del Personaje:</label>
+            <input type="text" id="characterName" required>
+
+            <label for="characterImage">Imagen del Personaje:</label>
+            <input type="file" id="characterImage" accept="image/*" required>
+
+            <button type="button" onclick="addCharacter()">Agregar Personaje</button>
+        </form>
+
+        <div id="characterCards" class="cards-container"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
