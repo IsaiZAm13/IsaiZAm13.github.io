@@ -6,7 +6,7 @@
     <title>Crear Personajes</title>
     <link rel="stylesheet" href="stylesrick.css">
 </head>
-<body>
+<body onabort="GenerarPersonajes">
     <div class="container">
         <h1>Agregar Personajes</h1>
         <form id="characterForm">
@@ -16,6 +16,7 @@
             <button type="button" onclick="personajerandome()">random</button>
             <button type="button" onclick="GenerarPersonajes()">Generar</button>
             <button type="button" onclick="buscarNombre()">Buscar Nombre</button>
+            <button type="button" onclick="borrar()">borrar</button>
         </form>
 
         <div id="characterCards" class="cards-container"></div>

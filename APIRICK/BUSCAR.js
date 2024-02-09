@@ -78,7 +78,8 @@ function GenerarPersonajes() {
             const template = document.getElementById('characterCardTemplate');
             
             
-            
+            //characterCardsContainer.innerHTML = '';
+
             
             for (let i = 0; i < 20; i++) {
                 const character = data.results[i];
@@ -136,4 +137,9 @@ function buscarNombre() {
         .catch(error => window.alert(`Error fetching characters: ${error}`));
 }
 
+function borrar(){
+    const characterCardsContainer = document.getElementById('characterCards');
+    const template = document.getElementById('characterCardTemplate');
+    characterCardsContainer.innerHTML = '';
 
+}
