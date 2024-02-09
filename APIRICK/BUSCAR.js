@@ -78,8 +78,7 @@ function GenerarPersonajes() {
             const template = document.getElementById('characterCardTemplate');
             
             
-            characterCardsContainer.innerHTML = '';
-
+            
             
             for (let i = 0; i < 20; i++) {
                 const character = data.results[i];
